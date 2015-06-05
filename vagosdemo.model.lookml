@@ -18,9 +18,10 @@
   always_filter:
     report_start_date: '2013-01-01'
     report_end_date: '2013-12-31'
-  joins:
-    - join: assetvaluation
-      sql_on: ${assetvaluation.acctentitykey}=${accountbalance.acctentitykey}
+    report_currency_to: 'USD'
+ # joins:
+  #  - join: assetvaluation
+   #   sql_on: ${assetvaluation.acctentitykey}=${accountbalance.acctentitykey}
 
      
 
